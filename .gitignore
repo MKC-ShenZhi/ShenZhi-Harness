@@ -3,6 +3,8 @@
 !/.gitignore
 !/.env.example
 !/README.md
+!/AGENTS.md
+!/ONBOARDING.md
 !/package.json
 !/package-lock.json
 !/apps/
@@ -10,6 +12,7 @@
 !/apps/server/
 !/apps/client/
 /apps/client/*
+!/apps/client/README.md
 !/apps/client/web/
 /apps/client/web/SZH_assets/fonts/NotoSansSC.ttf
 !/apps/client/workbench/
@@ -23,11 +26,13 @@
 !/Start-SZH-Next.cmd
 !/docs/
 /docs/*
-!/docs/BACKEND_ARCHITECTURE.md
-!/docs/BACKEND_STATUS.md
-!/docs/API_REFERENCE.md
-!/docs/TECH_DEBT.md
-!/docs/FRONTEND_BACKEND_CONTRACT.md
+!/docs/README.md
+!/docs/engineering/
+!/docs/harness/
+/docs/engineering/*
+!/docs/engineering/*.md
+/docs/harness/*
+!/docs/harness/*.md
 !/contracts/
 !/evaluation/
 /evaluation/*

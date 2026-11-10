@@ -47,7 +47,7 @@ NOTAM 创建后进入 `awaiting_confirmation`。确认后入队，与对话消�
 
 ## 数据目录
 
-默认以项目根目录 `var/` 为数据根。嵌入式服务可通过 `TaskService.open({ directory })` 使用独立根目录，Registry、Run、Task、消息产物及 DSH 会话随目录隔离。配置来源仍见 README。
+默认以项目根目录 `var/` 为数据根。嵌入式服务可通过 `TaskService.open({ directory })` 使用独立根目录，Registry、Run、Task、消息产物及 DSH 会话随目录隔离。配置来源见仓库根目录 [README](../../README.md)。
 
 | 相对目录 | 内容 |
 | --- | --- |

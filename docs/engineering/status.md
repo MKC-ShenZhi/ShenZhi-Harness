@@ -29,6 +29,6 @@
 | 临时快照 `npm ci --no-audit --no-fund`、`npm test` | 按锁文件重新安装成功。64 项通过，4 项旧 AIC 归档测试因样本不随仓库分发而显式跳过 |
 | 临时快照 `node apps/server/main.mjs` | 使用隔离端口及无凭据配置启动。health、旧方案、注册方案、任务、Run 五个查询均返回 200 |
 | 通过 `node --input-type=module -` 执行临时 HTTP 联调脚本 | 实际启动现有沙箱进程。验证 CLI 导入及冲突、旧任务创建查询、版本查询、HTTP 导入 403、校验成功和失败、Run 幂等、运行失败与取消、快照落盘。四个下载文件长度和 SHA-256 均一致。源码原目录与干净快照均通过 |
-| `npm audit --omit=dev` | 发现依赖通告，见 [技术债务](TECH_DEBT.md) |
+| `npm audit --omit=dev` | 发现依赖通告，见 [技术债务](tech-debt.md) |
 
 测试使用 Node.js 24.22.1、npm 11.19.1。旧模型任务和会话通过现有替身测试覆盖。实际模型调用、AIC Python/远程计算、桌面窗口人工操作均未执行。本轮采用 API 冒烟和前端契约测试验证兼容性。

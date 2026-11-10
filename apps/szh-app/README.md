@@ -1,6 +1,8 @@
-# SZH 桌面客户端（Electron + React + TypeScript）
+# ShenZhi 工作台
 
-SZH 科研工作台的新版桌面客户端：方案库、方案工作空间（概览 / 运行 / 记录 / 开发）、运行页、成果查看、AI 侧栏与对话。客户端只通过 HTTP 访问 Harness（`apps/server`），不直接运行任何专业模型。
+深知 Harness 的桌面客户端（Electron + React + TypeScript）：方案库、方案工作空间（概览 / 运行 / 记录 / 开发）、运行页、成果查看、AI 侧栏与对话。客户端只通过 HTTP 访问 Harness（`apps/server`），不直接运行任何专业模型。
+
+项目总览见 [README](../../README.md)，协作约束见 [AGENTS.md](AGENTS.md)。
 
 ## 环境要求
 
